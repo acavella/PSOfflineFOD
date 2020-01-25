@@ -5,7 +5,7 @@
     Author = 'Tony Cavella'
     Copyright = 'Copyright (c) 2020 Tony Cavella, licensed under MIT License.'
     Description = 'Installs a Windows capability package on the specified operating system image.'
-    PowerShellVersion = '3.0'
+    PowerShellVersion = '5.0'
     FunctionsToExport = 'Add-WindowsCapabilityOffline'
     CmdletsToExport = 'Add-WindowsCapabilityOffline'
     VariablesToExport = '*'
