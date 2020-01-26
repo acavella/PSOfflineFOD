@@ -24,8 +24,8 @@ Function Add-WindowsCapabilityOffline
     )
 
     # Mount ISO
-    Mount-DiskImage -ImagePath "$Source"
-    $VirtualDrive = (Get-DiskImage "$Source" | Get-Volume).DriveLetter
+    Mount-DiskImage -ImagePath $Source
+    $VirtualDrive = (Get-DiskImage $Source | Get-Volume).DriveLetter
 
     # Enumerate named features
     $FeatureSearch = Get-WindowsCapability –Online | Where-Object Name -like $Name
@@ -36,5 +36,5 @@ Function Add-WindowsCapabilityOffline
     }
 
     # Dismount ISO
-    Dismount-DiskImage -ImagePath "$Source"
+    Dismount-DiskImage -ImagePath $Source
 }
