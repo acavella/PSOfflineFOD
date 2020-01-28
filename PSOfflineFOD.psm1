@@ -22,13 +22,23 @@ Function Add-WindowsCapabilityOffline
     [parameter(Position=2, Mandatory=$true)]
     [String] $Name
     )
+    
+    # Administraive Privilege Check
+	$CurrentUser = [Security.Principal.WindowsIdentity]::GetCurrent()
+	$Role = (New-Object Security.Principal.WindowsPrincipal $CurrentUser).IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)
 
+	If(!$Role)
+	{
+		Write-Warning "The requested operation requires elevation."
+		Exit	
+    }
+    
     # Mount ISO
     Mount-DiskImage -ImagePath $Source
     $VirtualDrive = (Get-DiskImage $Source | Get-Volume).DriveLetter
 
     # Enumerate named features
-    $FeatureSearch = Get-WindowsCapability –Online | Where-Object Name -like $Name
+    $FeatureSearch = Get-WindowsCapability –Online | Where-Object Name -Like $Name
 
     # Install named features
     Foreach ($Feature in $FeatureSearch) {
