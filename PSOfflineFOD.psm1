@@ -23,7 +23,7 @@ Function Add-WindowsCapabilityOffline
     [String] $Name
     )
     
-    # Administraive Privilege Check
+    # Administraive privilege check
 	$CurrentUser = [Security.Principal.WindowsIdentity]::GetCurrent()
 	$Role = (New-Object Security.Principal.WindowsPrincipal $CurrentUser).IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)
 

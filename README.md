@@ -35,7 +35,6 @@ Coming soon...
 Coming soon...
 
 ## Acknowledgements
-* [Wikipedia](https://en.wikipedia.org)
 * [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 [latest-release]:https://github.com/altcipher/PSOfflineFOD/releases/latest
