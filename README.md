@@ -1,5 +1,6 @@
 # PSOfflineFOD
-![Gitter](https://img.shields.io/gitter/room/altCipher/PSOfflineFOD?style=flat-square)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/altCipher/PSOfflineFOD)
+![Gitter](https://img.shields.io/gitter/room/altCipher/PSOfflineFOD)
 
 #### Table of contents:
 
