@@ -7,7 +7,7 @@
 	.PARAMETER Source
         Specifies the location of the ISO file containing Features on Demand content.
     .PARAMETER Name
-        Specifies the identity of the capability to add to an operating system image.
+        Specifies the identity of the capability to add to an operating system image. Supports wildcards such as "*".
     .LINK
         Add-WindowsCapability
         Remove-WindowsCapability
