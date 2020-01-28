@@ -17,10 +17,10 @@ Function Add-WindowsCapabilityOffline
 	[CmdletBinding()]
     Param
     (
-    [parameter(Position=1, Mandatory=$false)]
-    [String] $Source = "$env:USERPROFILE\Downloads\W10RSAT_FOD\1809\1809_FoD_Disk1.iso",
-    [parameter(Position=2, Mandatory=$false)]
-    [String] $Name = "RSAT*"
+    [parameter(Position=1, Mandatory=$true)]
+    [String] $Source,
+    [parameter(Position=2, Mandatory=$true)]
+    [String] $Name
     )
 
     # Mount ISO
