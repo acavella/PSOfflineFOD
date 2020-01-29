@@ -33,12 +33,14 @@ Coming soon...
 Coming soon...
 
 ## Acknowledgements
-* [Pester] - Build scripts and structure.
-* [Adam Pritchard's Markdown Cheatsheet] - Markdown help, especially in the formatting of this README.
+* PSOfflineFOD is based on the excellent work published by Ty McPherson and team at [Microsoft Tech Community]
+* Build scripts and structure based on the work by the great developers at [Pester].
+* Markdown and formatting based on [Adam Pritchard's Markdown Cheatsheet].
 
 [latest-release]:https://github.com/altcipher/PSOfflineFOD/releases/latest
 [Adam Pritchard's Markdown Cheatsheet]:https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 [Pester]:https://github.com/pester/Pester
+[Microsoft Tech Community]:https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/rsat-on-windows-10-1809-in-disconnected-environments/ba-p/570833
 
 [shield-release]:https://img.shields.io/github/v/release/altCipher/PSOfflineFOD
 [shield-gitter]:https://img.shields.io/gitter/room/altCipher/PSOfflineFOD
