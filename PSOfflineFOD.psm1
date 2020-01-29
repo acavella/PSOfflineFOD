@@ -1,4 +1,4 @@
-<#
+﻿<#
 	.SYNOPSIS
         Installs a Windows capability package on the specified operating system image.
 	.DESCRIPTION

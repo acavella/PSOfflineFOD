@@ -1,4 +1,4 @@
-@{
+﻿@{
     RootModule = 'PSOfflineFOD.psm1'
     ModuleVersion = '0.0.2'
     GUID = 'b5eea96b-8896-4872-abbd-19644f87b0ff'
