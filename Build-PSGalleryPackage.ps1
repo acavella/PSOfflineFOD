@@ -9,6 +9,8 @@ try {
     Write-Verbose "Copying release files to build folder '$buildDir'"
     Copy-Item $baseDir\PSOfflineFOD.psd1    $buildDir\
     Copy-Item $baseDir\PSOfflineFOD.psm1    $buildDir\
+    Copy-Item $baseDir\LICENSE              $buildDir\
+    Copy-Item $baseDir\README.md            $buildDir\
 
     Write-Verbose 'Copy complete. Contents:'
     Get-ChildItem $buildDir -Recurse | Out-Host
