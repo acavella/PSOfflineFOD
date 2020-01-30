@@ -1,6 +1,6 @@
 # PSOfflineFOD
 ![shield-release]
-![shield-gitter]
+[![Gitter](https://badges.gitter.im/altCipher/PSOfflineFOD.svg)](https://gitter.im/altCipher/PSOfflineFOD?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 #### Table of contents:
 
@@ -47,4 +47,3 @@ Coming soon...
 [Microsoft Tech Community]:https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/rsat-on-windows-10-1809-in-disconnected-environments/ba-p/570833
 
 [shield-release]:https://img.shields.io/github/v/release/altCipher/PSOfflineFOD
-[shield-gitter]:https://img.shields.io/gitter/room/altCipher/PSOfflineFOD
