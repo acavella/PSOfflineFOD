@@ -11,10 +11,6 @@
     VariablesToExport = '*'
     AliasesToExport = @()
     PrivateData       = @{
-        # PSData is module packaging and gallery metadata embedded in PrivateData
-        # It's for rebuilding PowerShellGet (and PoshCode) NuGet-style packages
-        # We had to do this because it's the only place we're allowed to extend the manifest
-        # https://connect.microsoft.com/PowerShell/feedback/details/421837
         PSData = @{
             # The primary categorization of this module (from the TechNet Gallery tech tree).
             Category     = "Desktop Management"
@@ -37,4 +33,5 @@
             # Prerelease string of this module
             Prerelease   = ''
         }
+    }
 }
