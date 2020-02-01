@@ -12,7 +12,7 @@
             Category     = 'Desktop Management'
 
             # Keyword tags to help users find this module via navigations and search.
-            Tags         = @('powershell', 'fod', 'features', 'capability', 'offline', '1809', 'features on demand', 'Windows')
+            Tags         = @('powershell', 'fod', 'features', 'capability', 'offline', '1809', 'on-demand', 'Windows')
 
             # The web address of an icon which can be used in galleries to represent this module
             IconUri      = 'https://raw.githubusercontent.com/altCipher/PSOfflineFOD/images/altcipher.png'
@@ -24,7 +24,7 @@
             LicenseUri   = 'https://github.com/altCipher/PSOfflineFOD/blob/master/LICENSE'
 
             # Release notes for this particular version of the module
-            ReleaseNotes = 'https://github.com/altCipher/PSOfflineFOD/releases/tag/v0.0.1'
+            ReleaseNotes = 'https://github.com/altCipher/PSOfflineFOD/releases/tag/v0.0.3'
 
             # Prerelease string of this module
             Prerelease   = ''
