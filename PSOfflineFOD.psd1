@@ -1,6 +1,6 @@
 ﻿@{
     RootModule = 'PSOfflineFOD.psm1'
-    ModuleVersion = '0.0.2'
+    ModuleVersion = '0.0.3'
     GUID = 'b5eea96b-8896-4872-abbd-19644f87b0ff'
     Author = 'Tony Cavella'
     Copyright = 'Copyright (c) 2020 Tony Cavella, licensed under MIT License.'
@@ -9,7 +9,7 @@
     PrivateData       = @{
         PSData = @{
             # The primary categorization of this module (from the TechNet Gallery tech tree).
-            Category     = "Desktop Management"
+            Category     = 'Desktop Management'
 
             # Keyword tags to help users find this module via navigations and search.
             Tags         = @('powershell', 'fod', 'features', 'capability', 'offline', '1809', 'features on demand', 'Windows')
@@ -18,10 +18,10 @@
             IconUri      = 'https://raw.githubusercontent.com/altCipher/PSOfflineFOD/images/altcipher.png'
 
             # The web address of this module's project or support homepage.
-            ProjectUri   = "https://github.com/altCipher/PSOfflineFOD"
+            ProjectUri   = 'https://github.com/altCipher/PSOfflineFOD'
 
             # The web address of this module's license. Points to a page that's embeddable and linkable.
-            LicenseUri   = "https://github.com/altCipher/PSOfflineFOD/blob/master/LICENSE"
+            LicenseUri   = 'https://github.com/altCipher/PSOfflineFOD/blob/master/LICENSE'
 
             # Release notes for this particular version of the module
             ReleaseNotes = 'https://github.com/altCipher/PSOfflineFOD/releases/tag/v0.0.1'
