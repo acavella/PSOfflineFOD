@@ -6,10 +6,6 @@
     Copyright = 'Copyright (c) 2020 Tony Cavella, licensed under MIT License.'
     Description = 'Installs a Windows capability package on the specified operating system image.'
     PowerShellVersion = '5.0'
-    FunctionsToExport = 'Add-WindowsCapabilityOffline'
-    CmdletsToExport = ''
-    VariablesToExport = '*'
-    AliasesToExport = @()
     PrivateData       = @{
         PSData = @{
             # The primary categorization of this module (from the TechNet Gallery tech tree).
