@@ -28,10 +28,11 @@ The PSOfflineFOD module enables the 'Add-WindowsCapabilityOffline' cmdlet to the
 2. Extract the latest release and rename the folder to PSOfflineFOD.
 3. Place the PSOfflineFOD folder in your PSModulePath, `$env:PSModulePath` lists available paths.
 4. `Import-Module -Name Add-WindowsCapabilityOffline`
+#### PowerShell Gallery
+`Install-Module -Name PSOfflineFOD`
 #### GitHub Packages
 Coming soon...
-#### PowerShell Gallery
-Coming soon...
+
 
 ## Contributing
 Coming soon...
