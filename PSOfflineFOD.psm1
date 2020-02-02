@@ -17,10 +17,12 @@
 	[CmdletBinding()]
     Param
     (
-    [parameter(Position=1, Mandatory=$true)]
-    [String] $Source,
-    [parameter(Position=2, Mandatory=$true)]
-    [String] $Name
+    [parameter(Position=1, Mandatory=$true, HelpMessage="Enter path to Features on Demand ISO.")]
+    [String]
+    $Source,
+    [parameter(Position=2, Mandatory=$true, HelpMessage="Enter feature name, wildcard '*' is allowed.")]
+    [String] 
+    $Name
     )
     
     # Administraive privilege check
