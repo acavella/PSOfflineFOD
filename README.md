@@ -1,5 +1,6 @@
 # PSOfflineFOD
 ![shield-release]
+![PowerShell Gallery](https://img.shields.io/powershellgallery/p/PSOfflineFOD)
 [![Gitter](https://badges.gitter.im/altCipher/PSOfflineFOD.svg)](https://gitter.im/altCipher/PSOfflineFOD?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 #### Table of contents:
@@ -12,7 +13,7 @@
 - [Acknowledgements](#acknowledgements)
 
 ## Description
-Installs a Windows capability package from offline Features on Demand ISO on the specified operating system image. PSOfflineFOD is compatible with both PowerShell 5.x and PowerShell Core 6.
+Installs a Windows capability package from an offline Features on Demand ISO on the specified operating system image. PSOfflineFOD is compatible with both PowerShell 5.x and PowerShell Core 6.
 
 Features on Demand are additional capabilities, such as Remote Server Administration Tools (RSAT), that can be added any time on demand.  As of Windows 10 1809 these features can only be added via online sources (Windows Update).  Certain environments that may not have direct access to the internet face an additional challenge adding these features.  Enterprise subscribers can obtain the Features on Demand (FOD) content through the Microsoft Volume Licensing Service Center (VLSC) as a ISO.  The current FOD release is comprised of two ISOs avaiable for download.
 
