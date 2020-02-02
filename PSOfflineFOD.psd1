@@ -24,7 +24,7 @@
             LicenseUri   = 'https://raw.githubusercontent.com/altCipher/PSOfflineFOD/master/LICENSE'
 
             # Release notes for this particular version of the module
-            ReleaseNotes = 'https://github.com/altCipher/PSOfflineFOD/releases/tag/v0.0.3'
+            ReleaseNotes = 'https://github.com/altCipher/PSOfflineFOD/releases/tag/v0.0.4'
 
             # Prerelease string of this module
             Prerelease   = ''
