@@ -21,7 +21,7 @@
             ProjectUri   = 'https://github.com/altCipher/PSOfflineFOD'
 
             # The web address of this module's license. Points to a page that's embeddable and linkable.
-            LicenseUri   = 'https://github.com/altCipher/PSOfflineFOD/blob/master/LICENSE'
+            LicenseUri   = 'https://raw.githubusercontent.com/altCipher/PSOfflineFOD/master/LICENSE'
 
             # Release notes for this particular version of the module
             ReleaseNotes = 'https://github.com/altCipher/PSOfflineFOD/releases/tag/v0.0.3'
