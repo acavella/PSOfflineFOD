@@ -1,10 +1,10 @@
 ﻿@{
     RootModule = 'PSOfflineFOD.psm1'
-    ModuleVersion = '0.0.3'
+    ModuleVersion = '0.0.4'
     GUID = 'b5eea96b-8896-4872-abbd-19644f87b0ff'
     Author = 'Tony Cavella'
     Copyright = 'Copyright (c) 2020 Tony Cavella, licensed under MIT License.'
-    Description = 'Installs a Windows capability package on the specified operating system image.'
+    Description = 'Installs a Windows capability package from an offline Features on Demand ISO on the specified operating system image. PSOfflineFOD is compatible with both PowerShell 5.x and PowerShell Core 6.'
     PowerShellVersion = '5.0'
     PrivateData = @{
         PSData = @{
