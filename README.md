@@ -1,5 +1,6 @@
 # PSOfflineFOD
 ![shield-release]
+![PowerShell Gallery](https://img.shields.io/powershellgallery/p/PSOfflineFOD)
 [![Gitter](https://badges.gitter.im/altCipher/PSOfflineFOD.svg)](https://gitter.im/altCipher/PSOfflineFOD?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 #### Table of contents:
